@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: rgb(219, 150, 150);
+}
+#main{
+    outline: 2px solid green;
+    width: 320px;
+    max-width: 95%;
+    height: auto;                    
+    background-color: blanchedalmond;
+    margin: 40px auto;
+    padding: 16px;
+    border-radius: 8px;
+    border: 3px solid black;
+    box-shadow:inset 0px 0px 3px 5px brown
+}
+#output{
+    width: 92%;
+    min-height: 100px;
+    background-color: #3e3a3a;
+    color: white;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: auto;
+}
+#input{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    text-align: center;
+    
+    justify-self: auto;
+}
+.button{
+    padding: 14px 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100%;
+    box-shadow: none;
+    background-color: gold;
+}
+.btn-info.button{ color: white; }
+.btn-success.button{ color: white; }
+.btn-danger.button{ color: white; }

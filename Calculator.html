@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+</head>
+<body>
+    <div id="main"> 
+        <div id="output">0</div>
+        <div id="input">
+            <button class="button btn btn-danger" data-value="C" style="background-color: red;">C</button>
+            <button class="button btn btn-secondary" data-value="DEL" style="background-color: grey;">DEL</button>
+            <button class="button btn btn-info" data-value="/" style="background-color: peru;">/</button>
+            <button class="button btn btn-info" data-value="*" style="background-color: peru;">*</button>
+
+            <button class="button btn btn-light" data-value="7">7</button>
+            <button class="button btn btn-light" data-value="8">8</button>
+            <button class="button btn btn-light" data-value="9">9</button>
+            <button class="button btn btn-info" data-value="-" style="background-color: peru;">-</button>
+
+            <button class="button btn btn-light" data-value="4">4</button>
+            <button class="button btn btn-light" data-value="5">5</button>
+            <button class="button btn btn-light" data-value="6">6</button>
+            <button class="button btn btn-info" data-value="+" style="background-color: peru;">+</button>
+
+            <button class="button btn btn-light" data-value="1">1</button>
+            <button class="button btn btn-light" data-value="2">2</button>
+            <button class="button btn btn-light" data-value="3">3</button>
+            <button class="button btn btn-success" data-value="=" style="background-color: green;">=</button>
+
+            <button class="button btn btn-light" data-value="0">0</button>
+            <button class="button btn btn-light" data-value=".">.</button>
+            <div style="grid-column: span 2;"></div>
+        </div>
+    </div>
+
+    <script src="Calaulator.js"></script>
+</body>
+</html>
